@@ -1,0 +1,23 @@
+/***
+            Bismillahir Rahmanir Rahim
+            Read the name of Allah, who created you!!!
+            Author : MD Aftab uddin bhuiyan
+            Department of CSE, Dhaka international University, Bangladesh.
+***/
+
+#include<stdio.h>
+int main()
+{
+int A,B,i,x[50],c=0;
+scanf("%d %d",&A,&B);
+for(i=0;i<A;i++){
+scanf("%d",&x[i]);
+}
+for(i=0;i<A;i++){
+if(x[i]>=x[B-1]&&x[i]>0){
+c++;
+}
+}
+printf("%d\n",c);
+return 0;
+}
