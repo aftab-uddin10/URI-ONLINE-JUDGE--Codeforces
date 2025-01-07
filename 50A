@@ -1,9 +1,0 @@
-#include<stdio.h>
-int main()
-{
-int A,B,x;
-scanf("%d %d",&A,&B);
-x=A*B;
-printf("%d\n",x/2);
-return 0;
-}
