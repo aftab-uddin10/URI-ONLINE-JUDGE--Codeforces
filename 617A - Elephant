@@ -1,0 +1,23 @@
+/***
+            Bismillahir Rahmanir Rahim
+            Start with the name of Allah, who created you!!!
+            Author : MD Aftab Uddin Bhuiyan
+            Department of CSE, Dhaka international University, Bangladesh.
+***/
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,i,ans=0;
+    int a[]={5,4,3,2,1};
+    cin>>n;
+    for(i=0; i<5; i++)
+    {
+        ans+=n/a[i];
+        n=n%a[i];
+    }
+    cout<<ans<<endl;
+    return 0;
+}
